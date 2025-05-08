@@ -14,7 +14,7 @@ with open("respostas.json", "r", encoding="utf-8") as f:
 
 # Token do ChatBot
 import os
-TOKEN = os.environ.get("7865550052:AAEnacYWJczbwwyGrVYpKZvbzCpRi_HZbuw")
+TOKEN = os.environ.get("TOKEN")
 
 # Função para o /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
